@@ -24,5 +24,30 @@ public class Moto {
         this.caballos = caballos;
         this.marca = marca;
     }
+
+    public int getCilindranda() {
+        return cilindranda;
+    }
+
+    public void setCilindranda(int cilindranda) {
+        this.cilindranda = cilindranda;
+    }
+
+    public int getCaballos() {
+        return caballos;
+    }
+
+    public void setCaballos(int caballos) {
+        this.caballos = caballos;
+    }
+
+    public String getMarca() {
+        return marca;
+    }
+
+    public void setMarca(String marca) {
+        this.marca = marca;
+    }
+    
     
 }
