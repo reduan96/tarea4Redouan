@@ -13,7 +13,13 @@ public class Prueba {
     
     public static void main(String[] args) {
         
+        Moto prototipo = new Moto();
         
+        System.out.println(prototipo.toString());
+        
+        Moto Cbr600rr = new Moto(600, 123, "Honda");
+        
+        System.out.println(Cbr600rr.toString());
         
     }
     
