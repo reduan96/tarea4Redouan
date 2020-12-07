@@ -48,6 +48,10 @@ public class Moto {
     public void setMarca(String marca) {
         this.marca = marca;
     }
-    
+
+    @Override
+    public String toString() {
+        return "Moto{" + "cilindranda=" + cilindranda + ", caballos=" + caballos + ", marca=" + marca + '}';
+    }
     
 }
