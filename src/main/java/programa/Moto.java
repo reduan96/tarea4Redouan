@@ -14,4 +14,15 @@ public class Moto {
     private int cilindranda;
     private int caballos;
     private String marca;
+
+    public Moto() {
+        
+    }
+
+    public Moto(int cilindranda, int caballos, String marca) {
+        this.cilindranda = cilindranda;
+        this.caballos = caballos;
+        this.marca = marca;
+    }
+    
 }
